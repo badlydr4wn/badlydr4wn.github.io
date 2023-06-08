@@ -1,0 +1,70 @@
+<h1>Introduction | I</h1>
+    <img src="https://images.unsplash.com/photo-1484712401471-05c7215830eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Introduction">
+    <p>
+        Hey mate, it's me, you!<br> Right around now, you are going through a phase of life known as adolescence. Might scare you at first, but relax, you are not the only one going through it. We all go through this eventually. 
+       It will begin to affect your cognitive functions, behaviours, and many other elements of life. You are still (mostly) in control of your actions. Whatever you do, remember this; think before you speak. It will help you, trust me.
+    </p>
+    <br>
+    <h2>Emotional changes | II</h2>
+    <img src="https://images.unsplash.com/photo-1524088484081-4ca7e08e3e19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1391&q=80" alt="Emotional Change">
+    <p>
+        You’ll find yourself getting frustrated with the rules. School rules, Mum & Dad’s rules, basically everything. Maybe it isn’t happening yet, but trust me, it’ll happen. 
+        What's making you feel this way? As you get older, you will grow to hate rules, even if they are only in place to prevent the most unlikely and random scenarios. 
+        Another thought you may have is something like: “I’m an adult. I can make responsible decisions!” NO. YOU CANNOT. You end up in the same rabbit hole as me, regretting everything stupid you ever did, wondering how you could’ve made it easier on yourself, but here it is, slipping away.
+    </p>
+    <br>
+    <h2>Physical Changes | III</h2>
+    <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Physical Changes">
+    <p>
+        Physical changes, where do we start? Well, there are regular changes, like rapid growth, armpit hair (and hair in other places), and a deeper voice, sometimes changes only happen in rare cases. For example, braces if you have dental issues, and muscles if you get lucky. 
+        As mentioned above, rapid growth or growth spurts are when your body grows faster than usual. Thankfully, at the time of writing this, it has not happened yet. (but you are taller than most of your classmates! )
+        I can't tell you anything helpful, but you'll end up like a moody teenager, moping all over the place. Oh, and try to maintain a decent back posture. Thank me when you get out of high school.
+    </p>
+    <Br>
+    <h2>Social Changes | IV</h2>
+    <img src="https://images.unsplash.com/photo-1485872299829-c673f5194813?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1460&q=80" alt="Social Changes">
+    <p>
+        Social changes, essentially dropping and finding new friends. So far, you haven’t lost anyone. And if you want to keep it like that, snap out of it, mate, else you’ll end up like me, constantly causing fights and walking all over the place, more meaningless than a sign that says “SIGN NOT IN USE” 
+        Please, pay attention to people and accept whatever is going on, chances are, you can’t change it. If you feel tensions between you and one of your mates are weakening, give it a day or two, and fix the rope. 
+        You’ll encounter all sorts of people in high school, introverts, girls from your previous school who for some reason don’t like you, and idiots who got off their addictions a tad bit too late. There are too many types, you could be here all day listing them.
+    </p>
+    <br>
+    <h2>Peer Pressure| V</h2>
+    <img src="https://plus.unsplash.com/premium_photo-1661380704283-38adf12c3f5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Peer Pressure">
+    <p>
+        Peer pressure is one of the challenges adolescents will face. It is when someone's friends, peers, or colleagues pressure an individual to persuade them to do something. For adolescents, this usually comes in changing someone's behaviour or looks. 
+        Peer pressure can influence adolescents, as it is this time when they want to make changes in their life. Because of this, they tend to ignore reasoning and take ideas from others they look up to (famous people, social media influencers).
+        Peer pressure can cause conflict, anxiety, panic, confusion, and other emotions.
+    </p>
+    <br>
+    <h2>Wellbeing Strategies | VI</h2>
+    <img src="https://images.unsplash.com/photo-1580893211123-627e0262be3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80" alt="Wellbeing Strategies">
+    <p>Wellbeing, all about preventing intrusive thoughts winning, and by trying these strategies, you might actually have a good life!
+        <ol>
+            <li>Socialise - Talk to a friend, though try not to mention your current mental problems else you will bore the socks off them.</li>   
+            <li>Sports - A nice run feels good if you can do it in one of the few days of nice weather this state has.</li>
+            <li>Take up a hobby - but try not do anything stupid that will result in said hobby taking up most of your time and causing you to fall back on assessment work, at least that never- oh, right.</li>
+            <li>Volunteer in the community. Maybe a good idea, but do remember that the definition of volunteering is to freely offer to do something.</li>
+        </ol>
+        <br>
+        If you still struggle with mental wellbeing, get some sleep and talk to Mum and Dad, who are here for you, but please stop bringing it up at 10:30 at night when everyone is pissed and wants to sleep.
+    </p>
+    <br>
+    <h2>Dealing with Adolescence | VII</h2>
+    <img src="https://images.unsplash.com/photo-1607749111659-e1c8e05f5f24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80" alt="Introduction">
+    <p>Adolescence can be one of the most challenging parts of a person’s life. There are many services for teens who need help or someone to talk to.
+        <ol>
+            <li>Kids Helpline is a service that provides support and how to deal with youngsters' problems. Kids Helpline is ideal for people between the ages of 5 to 25.</li>
+            <li>BeyondBlue provides good resources to deal with any problems someone could have. They cover suicide prevention, mental health, and talking about personal issues and resources to help get over concerns.</li>
+            <li>Lifeline is about dealing with your problems, by talking/calling someone regarding things that concern you or helping adolescents get through a crisis. They provide information for parents and children on what to do if someone is struggling</li>
+        </ol>
+    </p>
+    <br>
+    <h2>References (APA Style) | VIII</h2>
+    <p>
+        <ul>
+            <li>Helpline. (1991). Teens 13-17 | We’re here to help | Kids Helpline. https://kidshelpline.com.au/teens</li>
+            <li>Beyond Blue. (2000). Helpful contacts and websites for young people - Beyond Blue. https://www.beyondblue.org.au/who-does-it-affect/young-people/helpful-contacts-and-websites</li>
+            <li>Lifeline. (1963). Real Experiences - Young people | Lifeline Australia | 13 11 14. https://www.lifeline.org.au/real-experiences/community-perspectives/young-people</li>
+        </ul>
+    </p>
