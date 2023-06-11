@@ -5,9 +5,9 @@
 </head>
 <body>
   <script>
-    // Get the text parameter from the URL
+    // Get the text parameter from the URL and decode it
     const urlParams = new URLSearchParams(window.location.search);
-    const text = urlParams.get('text');
+    const text = JSON.parse(decodeURIComponent(urlParams.get('text')));
 
     // Copy the text to the clipboard
     const tempInput = document.createElement('input');
@@ -18,7 +18,7 @@
     document.body.removeChild(tempInput);
 
     // Redirect to a new page
-    window.location.href = 'https://badlydr4wn.github.io/api/c2c/copied.html';
+    window.location.href = 'https://example.com';
   </script>
 </body>
 </html>
