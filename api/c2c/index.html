@@ -10,8 +10,10 @@
     <label for="text-input">Text:</label>
     <input type="text" id="text-input" name="text">
     <br>
-    <label for="question-input">Question:</label>
-    <input type="text" id="question-input" name="question">
+    <div id="question-form" style="display: none;">
+      <label for="question-input">Question:</label>
+      <input type="text" id="question-input" name="question">
+    </div>
     <button type="submit">Copy</button>
   </form>
 
@@ -19,24 +21,39 @@
     const messageDiv = document.getElementById('message');
     const copyForm = document.getElementById('copy-form');
     const textInput = document.getElementById('text-input');
+    const questionForm = document.getElementById('question-form');
     const questionInput = document.getElementById('question-input');
 
-    copyForm.addEventListener('submit', function(event) {
-      event.preventDefault();
-      const text = textInput.value;
-      const question = questionInput.value;
-      const prefix = question ? question + ': ' : '';
-      const copyText = prefix + text;
-      navigator.clipboard.writeText(copyText)
+    // Get the text and question parameters from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const text = urlParams.get('text');
+    const question = urlParams.get('question');
+
+    // If there is a query parameter, display the question form
+    if (question) {
+      questionForm.style.display = 'block';
+      textInput.value = text;
+      questionInput.value = question;
+      copyForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const prefix = questionInput.value + ': ';
+        const copyText = prefix + textInput.value;
+        navigator.clipboard.writeText(copyText)
+          .then(() => {
+            messageDiv.innerText = 'Copied to clipboard!';
+            window.close();
+          })
+          .catch(error => console.error('Failed to copy: ', error));
+      });
+    } else {
+      // If there is no query parameter, copy the text and close the tab
+      navigator.clipboard.writeText(text)
         .then(() => {
           messageDiv.innerText = 'Copied to clipboard!';
-          textInput.value = '';
-          questionInput.value = '';
+          window.close();
         })
-        .catch((error) => {
-          console.error('Failed to copy: ', error);
-        });
-    });
+        .catch(error => console.error('Failed to copy: ', error));
+    }
   </script>
 </body>
 </html>
