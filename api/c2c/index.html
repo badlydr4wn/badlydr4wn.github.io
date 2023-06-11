@@ -36,23 +36,29 @@
       questionInput.value = question;
       copyForm.addEventListener('submit', function(event) {
         event.preventDefault();
-        const prefix = questionInput.value + ': ';
+        const prefix = questionInput.value ? questionInput.value + ': ' : '';
         const copyText = prefix + textInput.value;
         navigator.clipboard.writeText(copyText)
           .then(() => {
             messageDiv.innerText = 'Copied to clipboard!';
-            window.close();
+            textInput.value = '';
+            questionInput.value = '';
+            setTimeout(() => {
+              window.close();
+            }, 1000);
           })
-          .catch(error => console.error('Failed to copy: ', error));
+          .catch(() => {
+            messageDiv.innerText = 'Failed to copy to clipboard';
+          });
       });
-    } else {
-      // If there is no query parameter, copy the text and close the tab
+    } else { // If there is no query parameter, copy the text and close the tab
       navigator.clipboard.writeText(text)
         .then(() => {
-          messageDiv.innerText = 'Copied to clipboard!';
-          window.close();
+          setTimeout(() => {
+            window.close();
+          }, 1000);
         })
-        .catch(error => console.error('Failed to copy: ', error));
+        .catch(() => {});
     }
   </script>
 </body>
