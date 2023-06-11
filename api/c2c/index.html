@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Copy to Clipboard</title>
+</head>
+<body>
+  <h1>Copy to Clipboard</h1>
+  <div id="message"></div>
+  <form id="copy-form">
+    <label for="text-input">Text:</label>
+    <input type="text" id="text-input" name="text">
+    <br>
+    <label for="question-input">Question:</label>
+    <input type="text" id="question-input" name="question">
+    <button type="submit">Copy</button>
+  </form>
+
+  <script>
+    const messageDiv = document.getElementById('message');
+    const copyForm = document.getElementById('copy-form');
+    const textInput = document.getElementById('text-input');
+    const questionInput = document.getElementById('question-input');
+
+    copyForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      const text = textInput.value;
+      const question = questionInput.value;
+      const prefix = question ? question + ': ' : '';
+      const copyText = prefix + text;
+      navigator.clipboard.writeText(copyText)
+        .then(() => {
+          messageDiv.innerText = 'Copied to clipboard!';
+          textInput.value = '';
+          questionInput.value = '';
+        })
+        .catch((error) => {
+          console.error('Failed to copy: ', error);
+        });
+    });
+  </script>
+</body>
+</html>
