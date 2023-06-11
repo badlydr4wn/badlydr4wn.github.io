@@ -1,55 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Copy to Clipboard</title>
+  <title>Copy to Clipboard and Redirect</title>
 </head>
 <body>
-  <h1>Copy to Clipboard</h1>
-  <div id="message"></div>
-  <form id="copy-form">
-    <label for="text-input">Text:</label>
-    <input type="text" id="text-input" name="text">
-    <br>
-    <div id="question-form" style="display: none;">
-      <label for="question-input">Question:</label>
-      <input type="text" id="question-input" name="question">
-    </div>
-    <button type="submit">Copy</button>
-  </form>
-
   <script>
-    const messageDiv = document.getElementById('message');
-    const copyForm = document.getElementById('copy-form');
-    const textInput = document.getElementById('text-input');
-    const questionForm = document.getElementById('question-form');
-    const questionInput = document.getElementById('question-input');
-
-    // Get the text and question parameters from the URL
+    // Get the text parameter from the URL
     const urlParams = new URLSearchParams(window.location.search);
     const text = urlParams.get('text');
-    const question = urlParams.get('question');
 
-    // If there is a query parameter, display the question form
-    if (question) {
-      questionForm.style.display = 'block';
-      textInput.value = text;
-      questionInput.value = question;
-      copyForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const finalText = questionInput.value + ' ' + textInput.value;
-        navigator.clipboard.writeText(finalText).then(function() {
-          messageDiv.textContent = 'Text copied to clipboard. You may now close this tab.';
-        }, function() {
-          messageDiv.textContent = 'Failed to copy text to clipboard.';
-        });
-      });
-    } else if (text) {
-      navigator.clipboard.writeText(text).then(function() {
-        messageDiv.textContent = 'Text copied to clipboard. You may now close this tab.';
-      }, function() {
-        messageDiv.textContent = 'Failed to copy text to clipboard.';
-      });
-    }
+    // Copy the text to the clipboard
+    const tempInput = document.createElement('input');
+    tempInput.value = text;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+
+    // Redirect to a new page
+    window.location.href = 'https://badlydr4wn.github.io/api/c2c/copied.html';
   </script>
 </body>
 </html>
